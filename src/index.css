@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+
+@import "tailwindcss";
+
+@theme {
+  --text-course-details-heading-small: 26px;
+  --text-course-details-heading-large: 36px;
+  --text-home-heading-small: 28px;
+  --text-home-heading-large: 48px;
+  --text-default: 15px;
+
+  --leading-course-details-heading-small: 36px;
+  --leading-course-details-heading-large: 44px;
+  --leading-home-heading-small: 34px;
+  --leading-home-heading-large: 56px;
+  --leading-default: 21px;
+}
+
+* {
+   font-family: "Outfit", sans-serif;
+}
