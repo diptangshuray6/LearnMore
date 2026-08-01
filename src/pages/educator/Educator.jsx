@@ -5,7 +5,6 @@ const Educator = () => {
   return (
     <div>
       Educator Page
-      {<Outlet />}
     </div>
   );
 };

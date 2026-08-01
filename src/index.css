@@ -15,6 +15,9 @@
   --leading-home-heading-small: 34px;
   --leading-home-heading-large: 56px;
   --leading-default: 21px;
+
+  /* Custom Grid Template */
+  --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 * {
