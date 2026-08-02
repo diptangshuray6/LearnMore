@@ -18,6 +18,9 @@
 
   /* Custom Grid Template */
   --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
+
+  /* Spacing */
+  --spacing-section-height1: 500px;
 }
 
 * {
