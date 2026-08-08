@@ -30,7 +30,7 @@ const Player = () => {
 
     useEffect(() => {
       getCourseData()
-    },[])
+    },[enrolledCourses])
 
   return (
     <>
@@ -89,7 +89,9 @@ const Player = () => {
         </div>
 
         {/* right column */}
-        <div></div>
+        <div>
+            <img src={courseData ? courseData.courseThumbnail : ' '} alt="" />
+        </div>
 
       </div>
     </>
